@@ -11,8 +11,12 @@ $router = new Router(URL_BASE);
  */
 $router->namespace("Source\App\Controllers");
 
+
 $router->group('store');
 $router->get("/", "IndexController:index");
+$router->get("/produtos", "ProductsController:index");
+$router->get("/carrinho", "IndexController:cart");
+
 
 
 /**

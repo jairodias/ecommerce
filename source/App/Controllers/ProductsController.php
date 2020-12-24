@@ -7,7 +7,7 @@ namespace Source\App\Controllers;
 use Source\App\Core\Files;
 use Source\App\Core\Session;
 
-class IndexController
+class ProductsController
 {
     /**
      * @var Session
@@ -29,6 +29,6 @@ class IndexController
 
     public function index()
     {
-        $this->files->set('index.php');
+        $this->files->set('products_list.php');
     }
 }

@@ -4,12 +4,23 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/Core/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/resources/views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/forgotIt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product-details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/products_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Controllers/ProductsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Core/Files.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configurando+o+Projeto.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Core/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/resources/views/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/sessions/sess_i9hpk21khmf5maatjin2s10i0o" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce-php" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608816293940</updated>
-      <workItem from="1608816295308" duration="2128000" />
+      <workItem from="1608816295308" duration="8911000" />
     </task>
     <servers />
   </component>
