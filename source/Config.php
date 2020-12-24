@@ -17,3 +17,5 @@ define("DATA_LAYER_CONFIG", [
         PDO::ATTR_CASE => PDO::CASE_NATURAL
     ]
 ]);
+
+define("PATH_SESSION", __DIR__."/../storage/sessions/");
