@@ -1,2 +1,5 @@
 ./vendor
 vendor
+
+./storage/sessions/*
+storage/sessions/*
