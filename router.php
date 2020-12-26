@@ -18,12 +18,25 @@ $router->group('admin');
 $router->get("/", "Admin\AdminController:index");
 $router->get("/login", "Admin\AdminController:showLogin");
 $router->post("/login", "Admin\AdminController:login");
+$router->get("/logout", "Admin\AdminController:logout");
+
+$router->get("/users", "Admin\UsersController:index");
+$router->get("/users/create", "Admin\UsersController:create");
+$router->get("/users/{user_id}", "Admin\UsersController:edit");
+
+$router->post("/users/store", "Admin\UsersController:store");
+$router->post("/users/update", "Admin\UsersController:update");
+$router->delete("/users/delete/{user_id}", "Admin\UsersController:delete");
 
 
+/****************
+ ****** STORE ****
+ *****************/
 $router->group('store');
 $router->get("/", "IndexController:index");
 $router->get("/produtos", "ProductsController:index");
 $router->get("/carrinho", "IndexController:cart");
+
 
 
 

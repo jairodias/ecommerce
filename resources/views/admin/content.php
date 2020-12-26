@@ -1,9 +1,6 @@
-<?php
-    if(!$this->session->has('user')) {
-        $this->router->redirect('/admin/login');
-    }
-?>
-  <!-- Content Wrapper. Contains page content -->
+<?= $this->layout('admin/__theme') ?>
+
+<!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">

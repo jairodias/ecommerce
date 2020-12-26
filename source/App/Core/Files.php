@@ -11,9 +11,10 @@ class Files
      */
     private $session;
 
-    public function __construct()
+    public function __construct($router)
     {
         $this->session = new Session();
+        $this->router = $router;
     }
 
     /**
@@ -29,8 +30,9 @@ class Files
 
     public function setTemplateAdmin(string $file)
     {
-        require __DIR__ . "/../../../resources/views/admin/header.php";
-        require __DIR__ . "/../../../resources/views/admin/$file";
-        require __DIR__ . "/../../../resources/views/admin/footer.php";
+        return [
+            require __DIR__ . "/../../../resources/views/admin/header.php",
+            require __DIR__ . "/../../../resources/views/admin/$file",
+            require __DIR__ . "/../../../resources/views/admin/footer.php"];
     }
 }

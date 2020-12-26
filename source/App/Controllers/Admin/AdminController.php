@@ -4,6 +4,7 @@
 namespace Source\App\Controllers\Admin;
 
 
+use League\Plates\Engine;
 use Source\App\Core\Controller;
 use Source\Models\User;
 
@@ -14,16 +15,26 @@ class AdminController extends Controller
      */
     private $user;
 
+    private $view;
+
+
+    /**
+     * AdminController constructor.
+     * @param $router
+     */
     public function __construct($router)
     {
         parent::__construct($router);
 
         $this->user = new User();
+
+        $this->view = new Engine(__DIR__."/../../../../resources/views/");
     }
 
     public function index()
     {
-        $this->files->setTemplateAdmin('content.php');
+        echo $this->view->render("admin/content");
+        die();
     }
 
     public function showLogin()
@@ -31,6 +42,9 @@ class AdminController extends Controller
         require __DIR__ . "/../../../../resources/views/admin/login.php";
     }
 
+    /**
+     * @param array $request
+     */
     public function login(array $request)
     {
         $requestData = (object) $request;
@@ -39,14 +53,8 @@ class AdminController extends Controller
 
         $user = $this->user->login($user)->fetch();
 
-        if(!$user) {
-            echo json_encode($this->responseFail('Usuário ou senha informada está incorreta !'));
-            die();
-        }
-
-        if(!$this->utils->password_verify($requestData->password, $user)) {
-            echo json_encode($this->responseFail('Usuário ou senha informada está incorreta !'));
-            die();
+        if(!$user || !$this->utils->password_verify($requestData->password, $user)) {
+          $this->responseFail('Usuário ou senha informada está incorreta !');
         }
 
         $this->session->set('user', [
@@ -57,5 +65,12 @@ class AdminController extends Controller
         ]);
 
         $this->router->redirect('/admin/');
+    }
+
+    public function logout()
+    {
+        $this->session->destroy();
+
+        $this->router->redirect('/admin/login');
     }
 }

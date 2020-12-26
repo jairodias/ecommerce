@@ -20,11 +20,11 @@ class IndexController
     private $files;
 
 
-    public function __construct()
+    public function __construct($router)
     {
         $this->session = (new Session())->regenerate();
 
-        $this->files = new Files();
+        $this->files = new Files($router);
     }
 
     public function index()

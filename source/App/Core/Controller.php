@@ -23,6 +23,7 @@ class Controller
      */
     protected $utils;
 
+
     /**
      * Controller constructor.
      * @param $router
@@ -31,7 +32,7 @@ class Controller
     {
         $this->session = (new Session())->regenerate();
         $this->utils = new Utils();
-        $this->files = new Files();
+        $this->files = new Files($router);
         $this->router = $router;
     }
 

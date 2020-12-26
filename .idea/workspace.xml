@@ -4,10 +4,19 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/__theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Core/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Files.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
@@ -31,6 +40,8 @@
       <path value="$PROJECT_DIR$/vendor/coffeecode/datalayer" />
       <path value="$PROJECT_DIR$/vendor/coffeecode/router" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/league/plates" />
     </include_path>
   </component>
   <component name="ProjectId" id="1m6a3L3g2GHEbqCppqXbn5ub5Ke" />
@@ -49,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce-php\source\App\Controllers\Admin" />
       <recent name="C:\xampp\htdocs\ecommerce-php" />
     </key>
   </component>
@@ -62,7 +74,7 @@
       <updated>1608816293940</updated>
       <workItem from="1608816295308" duration="9495000" />
       <workItem from="1608889776736" duration="88000" />
-      <workItem from="1608982956077" duration="10334000" />
+      <workItem from="1608982956077" duration="17295000" />
     </task>
     <servers />
   </component>

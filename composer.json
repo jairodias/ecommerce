@@ -24,6 +24,7 @@
   "require": {
     "coffeecode/router": "1.0.*",
     "coffeecode/datalayer": "^1.1",
-    "phpmailer/phpmailer": "v5.2.28"
+    "phpmailer/phpmailer": "v5.2.28",
+    "league/plates": "^3.4"
   }
 }
