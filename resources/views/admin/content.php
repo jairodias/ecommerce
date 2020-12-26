@@ -1,5 +1,8 @@
-
-
+<?php
+    if(!$this->session->has('user')) {
+        $this->router->redirect('/admin/login');
+    }
+?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->

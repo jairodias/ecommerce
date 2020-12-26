@@ -7,6 +7,16 @@ namespace Source\App\Core;
 class Files
 {
     /**
+     * @var Session
+     */
+    private $session;
+
+    public function __construct()
+    {
+        $this->session = new Session();
+    }
+
+    /**
      * @param string $file
      */
     public function set(string $file)

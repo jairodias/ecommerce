@@ -1,3 +1,9 @@
+<?php
+    if($this->session->has('user')) {
+        $this->router->redirect('/admin/');
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,11 +28,20 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
+        <a href="../../index2.html"><b>Loja Digital</a>
     </div>
     <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
 
+        <?php
+            if(isset($this->session->exception)) {
+                echo "<p style='text-align: center; color: red; 
+                        padding: 10px; border: 1px solid red;
+                        border-radius: 5px'>{$this->session->exception}</p>";
+
+                $this->session->unset('exception');
+            }
+        ?>
         <form action="/ecommerce-php/admin/login" method="post">
 
             <div class="form-group has-feedback">

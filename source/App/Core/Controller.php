@@ -3,26 +3,65 @@
 
 namespace Source\App\Core;
 
-
-use function Sodium\randombytes_random16;
+use Source\App\Core\Session;
+use Source\App\Core\Utils;
 
 class Controller
 {
-    public function exception(string $message)
+    /**
+     * @var Session
+     */
+    protected $session;
+
+    /**
+     * @var Files
+     */
+    protected $files;
+
+    /**
+     * @var Utils
+     */
+    protected $utils;
+
+    /**
+     * Controller constructor.
+     * @param $router
+     */
+    public function __construct($router)
     {
+        $this->session = (new Session())->regenerate();
+        $this->utils = new Utils();
+        $this->files = new Files();
+        $this->router = $router;
+    }
+
+    /**
+     * @param string $message
+     * @return object
+     */
+    public function responseFail(string $message): object
+    {
+        $this->session->set('exception', $message);
+
         return (object) [
             'success'   =>  false,
             'message'   => $message,
-            'uuid'      => randombytes_random16()
+            'uuid'      => md5(uniqid(rand(), true))
         ];
     }
 
     /**
-     * @param array $data
-     * @param string|null $message
+     * @param array|null $data
+     * @param string $message
+     * @return object
      */
-    public function responseOk(array $data, ?string $message)
+    public function responseOk(?array $data = [], string $message = 'OK'): object
     {
-
+        return (object) [
+            'success'   =>  true,
+            'message'   => $message,
+            'data'  => $data,
+            'uuid'  => md5(uniqid(rand(), true))
+        ];
     }
 }

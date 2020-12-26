@@ -30,14 +30,18 @@ class User extends DataLayer
         $this->conn = Connect::getInstance();
     }
 
+    public function safe(): ?array
+    {
+        return parent::safe();
+    }
+
     /**
      * @param string $user
-     * @param string $password
      * @return User|null
      */
-    public function login(string $user, string $password): ?User
+    public function login(string $user): ?User
     {
-        $user = $this->find("deslogin = :user", $user);
+        $user = $this->find("deslogin = :user AND inadmin = :admin", "user=$user&inadmin=1");
 
         if(!$user) return null;
 

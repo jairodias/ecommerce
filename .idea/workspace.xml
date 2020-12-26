@@ -4,21 +4,13 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/Core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/Core/Utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Core/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/sessions/sess_v939hr1b2p5ojsdsvv7gm2nlnh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,7 @@
       <updated>1608816293940</updated>
       <workItem from="1608816295308" duration="9495000" />
       <workItem from="1608889776736" duration="88000" />
-      <workItem from="1608982956077" duration="3884000" />
+      <workItem from="1608982956077" duration="10334000" />
     </task>
     <servers />
   </component>
