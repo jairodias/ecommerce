@@ -11,6 +11,14 @@ $router = new Router(URL_BASE);
  */
 $router->namespace("Source\App\Controllers");
 
+/****************
+****** ADMIN ****
+*****************/
+$router->group('admin');
+$router->get("/", "Admin\AdminController:index");
+$router->get("/login", "Admin\AdminController:showLogin");
+$router->post("/login", "Admin\AdminController:login");
+
 
 $router->group('store');
 $router->get("/", "IndexController:index");

@@ -1,5 +1,26 @@
 <?php ?>
-        <div class="footer-top-area">
+<div class="brands-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="brand-wrapper">
+                    <div class="brand-list">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand1.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand2.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand3.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand4.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand5.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand6.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand1.png" alt="">
+                        <img src="<?php __DIR__?>/../ecommerce-php/resources/images/brand2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End brands area -->
+    <div class="footer-top-area">
     <div class="zigzag-bottom"></div>
     <div class="container">
         <div class="row">

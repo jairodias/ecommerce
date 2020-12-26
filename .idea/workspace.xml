@@ -4,58 +4,42 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/Models/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/db_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/destroy_example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/find_example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/pdo_example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/example/save_example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/src/Connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/src/CrudTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/datalayer/src/DataLayer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/controller/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/controller/Test/Coffee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/controller/Test/Name.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/controller/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/spoofing/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/exemple/spoofing/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/src/Dispatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/src/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/coffeecode/router/src/RouterTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Core/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/App/Core/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Core/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/sessions/sess_v939hr1b2p5ojsdsvv7gm2nlnh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/coffeecode/datalayer" />
+      <path value="$PROJECT_DIR$/vendor/coffeecode/router" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1m6a3L3g2GHEbqCppqXbn5ub5Ke" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,7 +68,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608816293940</updated>
-      <workItem from="1608816295308" duration="9048000" />
+      <workItem from="1608816295308" duration="9495000" />
+      <workItem from="1608889776736" duration="88000" />
+      <workItem from="1608982956077" duration="3884000" />
     </task>
     <servers />
   </component>
