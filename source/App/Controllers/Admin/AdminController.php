@@ -15,8 +15,6 @@ class AdminController extends Controller
      */
     private $user;
 
-    private $view;
-
 
     /**
      * AdminController constructor.
@@ -27,8 +25,6 @@ class AdminController extends Controller
         parent::__construct($router);
 
         $this->user = new User();
-
-        $this->view = new Engine(__DIR__."/../../../../resources/views/");
     }
 
     public function index()

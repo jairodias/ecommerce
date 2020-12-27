@@ -4,7 +4,9 @@ $session = new \Source\App\Core\Session();
 
 if(!$session->has('user')) {
     $session->set('exception', 'Oooops! Primeiro o login...');
-    $router->redirect('/admin/login');
+
+    header('Location:'.URL_BASE.'/admin/login');
+    exit();
 }
 ?>
 

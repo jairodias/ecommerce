@@ -4,22 +4,13 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/__theme.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/__theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/__theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/users-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/App/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/App/Core/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../allmapping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +65,8 @@
       <updated>1608816293940</updated>
       <workItem from="1608816295308" duration="9495000" />
       <workItem from="1608889776736" duration="88000" />
-      <workItem from="1608982956077" duration="17295000" />
+      <workItem from="1608982956077" duration="17933000" />
+      <workItem from="1609067070999" duration="1521000" />
     </task>
     <servers />
   </component>

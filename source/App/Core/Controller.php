@@ -3,6 +3,7 @@
 
 namespace Source\App\Core;
 
+use League\Plates\Engine;
 use Source\App\Core\Session;
 use Source\App\Core\Utils;
 
@@ -23,6 +24,7 @@ class Controller
      */
     protected $utils;
 
+    protected $view;
 
     /**
      * Controller constructor.
@@ -34,6 +36,8 @@ class Controller
         $this->utils = new Utils();
         $this->files = new Files($router);
         $this->router = $router;
+
+        $this->view = new Engine(__DIR__."/../../../resources/views");
     }
 
     /**

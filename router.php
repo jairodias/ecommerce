@@ -22,7 +22,7 @@ $router->get("/logout", "Admin\AdminController:logout");
 
 $router->get("/users", "Admin\UsersController:index");
 $router->get("/users/create", "Admin\UsersController:create");
-$router->get("/users/{user_id}", "Admin\UsersController:edit");
+$router->get("/users/{user_id}/", "Admin\UsersController:edit");
 
 $router->post("/users/store", "Admin\UsersController:store");
 $router->post("/users/update", "Admin\UsersController:update");
