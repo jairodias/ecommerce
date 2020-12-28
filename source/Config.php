@@ -18,4 +18,6 @@ define("DATA_LAYER_CONFIG", [
     ]
 ]);
 
+define('PASSWORD_LENGTH', 8);
+
 define("PATH_SESSION", __DIR__."/../storage/sessions/");

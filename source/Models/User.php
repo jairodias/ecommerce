@@ -25,7 +25,7 @@ class User extends DataLayer
     public function __construct()
     {
         parent::__construct('tb_users', array(
-            'id_person',
+            'idperson',
             'deslogin',
             'inadmin',
             'dtregister'
