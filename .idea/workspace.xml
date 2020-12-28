@@ -4,17 +4,7 @@
     <list default="true" id="19f5ec0f-2e67-40e3-9993-549cf07e022c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../allmapping/.htaccess" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../allmapping/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/Models/Persons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/App/Core/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/App/Core/Utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +67,7 @@
       <workItem from="1608889776736" duration="88000" />
       <workItem from="1608982956077" duration="17933000" />
       <workItem from="1609067070999" duration="1599000" />
-      <workItem from="1609143915169" duration="4116000" />
+      <workItem from="1609143915169" duration="4197000" />
     </task>
     <servers />
   </component>
